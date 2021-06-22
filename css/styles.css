@@ -1,4 +1,28 @@
 html {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(221, 221, 221);
+}
+
+h1 {
+  font-weight: bold;
+}
+
+
+.nav {
+  margin: auto;
+  text-align: center;
+  
+}
+
+.nav ul {
+  list-style-type: none;
+  float: right;
+}
+
+.nav li {
+  display: inline;
+  padding: 10px;
+  margin-right: 25px;
+  font-weight: bold;
 }
