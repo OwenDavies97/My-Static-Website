@@ -9,6 +9,13 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
 
 .nav {
   margin: auto;
@@ -17,7 +24,6 @@ h1 {
 }
 
 .nav ul {
-  list-style-type: none;
   float: right;
 }
 
@@ -32,10 +38,6 @@ h1 {
   display: block;
   position: relative;
   padding-left: 20px;
-}
-
-#about-me h2 {
-  text-decoration: underline;
 }
 
 #about-me p {
@@ -55,4 +57,50 @@ h1 {
   position: relative;
 }
 
+#projects {
+  padding-left: 20px;
+}
 
+#projects li {
+  font-weight: bold;
+  margin: 10px 0;
+  padding-top: 32px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#projects p {
+  font-weight: 400;
+}
+
+#projects img {
+  max-height: 400px;
+  width: auto;
+}
+
+.mixed-messages {
+  display: none;
+}
+
+.excursion {
+  display: none;
+}
+
+.rugby-club {
+  display: none;
+}
+
+#list-fix {
+  position: relative;
+  bottom: 34px;
+}
