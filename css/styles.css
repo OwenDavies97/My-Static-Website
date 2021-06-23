@@ -6,6 +6,7 @@ html {
 
 h1 {
   font-weight: bold;
+  text-align: center;
 }
 
 
@@ -26,3 +27,32 @@ h1 {
   margin-right: 25px;
   font-weight: bold;
 }
+
+#about-me {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+}
+
+#about-me h2 {
+  text-decoration: underline;
+}
+
+#about-me p {
+  display: flex;
+}
+
+.photo {
+  position: relative;
+  bottom: 150px;
+}
+
+.photo img {
+  height: 100%;
+  width: auto;
+  max-height: 400px;
+  float: right;
+  position: relative;
+}
+
+
