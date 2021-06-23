@@ -55,6 +55,7 @@ ul {
   max-height: 400px;
   float: right;
   position: relative;
+  padding-right: 20px;
 }
 
 #projects {
@@ -88,16 +89,28 @@ ul {
   width: auto;
 }
 
+#projects button {
+  font-size: 22px;
+  background-color: rgb(221, 221, 221);
+  font-weight: bold;
+  border: none;
+}
+
+
+
 #mixed-messages {
   display: none;
+  padding-top: 15px;
 }
 
 #excursion {
   display: none;
+  padding-bottom: 10px;
 }
 
 #rugby-club {
   display: none;
+  padding-bottom: 25px;
 }
 
 #list-fix {
@@ -134,4 +147,160 @@ ul {
 footer {
   text-align: center;
   font-size: 14px;
+}
+
+
+@media only screen and (max-width: 1673px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 1512px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1379px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 1289px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 110px;
+  }
+}
+
+@media only screen and (max-width: 1204px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 135px;
+  }
+}
+
+@media only screen and (max-width: 1146px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 160px;
+  }
+}
+
+@media only screen and (max-width: 1098px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 190px;
+  }
+}
+
+@media only screen and (max-width: 1053px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 215px;
+  }
+}
+
+@media only screen and (max-width: 1013px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 245px;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width: 993px) {
+  .photo img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    bottom: 275px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  h2{
+    text-align: center;
+  }
+  
+  .photo img {
+    display: none;
+  }
+
+  .nav {
+    background-color: rgb(180, 180, 180);
+  }
+  .nav ul{
+    float: none;
+  }
+
+
+  #about-me p {
+    line-height: 1.85rem;
+  }
+
+  #projects ul {
+    text-align: center;
+  }
+
+  #projects img {
+    max-height: 250px;
+  }
+
+  #skills ul {
+    text-align: center;
+  }
 }
