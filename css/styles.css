@@ -109,25 +109,27 @@ ul {
   position: relative;
   bottom: 25px;
   padding-left: 20px;
-  text-align: center;
 }
 
 #skills h2 {
-  position: relative;
-  left: 220px;
 }
 
 #skills ul {
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  right: 38px;
 }
 
 #skills li {
-  padding-right: 25px;
+  padding-right: 40px;
   padding-top: 15px;
 }
 
 #skills img {
   max-height: 30px;
+  position: relative;
+  top: 8px;
 }
 
 
