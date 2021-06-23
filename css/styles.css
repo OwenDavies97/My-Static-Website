@@ -88,15 +88,15 @@ ul {
   width: auto;
 }
 
-.mixed-messages {
+#mixed-messages {
   display: none;
 }
 
-.excursion {
+#excursion {
   display: none;
 }
 
-.rugby-club {
+#rugby-club {
   display: none;
 }
 
@@ -111,8 +111,6 @@ ul {
   padding-left: 20px;
 }
 
-#skills h2 {
-}
 
 #skills ul {
   display: inline-flex;
