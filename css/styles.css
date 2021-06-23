@@ -104,3 +104,34 @@ ul {
   position: relative;
   bottom: 34px;
 }
+
+#skills {
+  position: relative;
+  bottom: 25px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+#skills h2 {
+  position: relative;
+  left: 220px;
+}
+
+#skills ul {
+  text-align: center;
+}
+
+#skills li {
+  padding-right: 25px;
+  padding-top: 15px;
+}
+
+#skills img {
+  max-height: 30px;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
